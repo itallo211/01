@@ -1,0 +1,88 @@
+# Atividade extrato
+nome=input('Qual seu nome?')
+
+cargo=input('Qual seu cargo atual?')
+
+sbi=float(input('Qual seu salário inicial?'))
+dep=int(input('Quantos dependentes você tem?'))
+serv=float(input('Quanto tempo de serviço você tem?'))
+if cargo == "chefe" or cargo=="Chefe" or cargo=="Chefia" or cargo=="chefia":
+  chefe=input('Você é ou já foi da chefia?')  
+#calculo gratificação
+
+  if chefe == "Sim" or chefe== 'sim' or chefe == 'sou':
+    temp=int(input('Quanto tempo?'))
+  if temp == 2 or temp==3:
+    print((sbi*temp*10)/100+sbi)
+  if temp==4 or temp==5:
+    print((sbi*temp*10)/100+sbi)
+  if temp==6:
+    print(((sbi*temp*10)/100+sbi))
+  if temp==8:
+    print((sbi*temp*10)/100+sbi)
+  if temp>=10:
+    print((sbi*100)/100+sbi)  
+
+          
+       
+  
+
+#calculo do QUIN
+n1=float(((sbi*serv)/100))+sbi
+
+if serv>=5 and serv<=65:
+  int(n1)
+
+else:
+  print('Você não possui QUIN')
+  if serv==5 or serv==6 or serv==7 or serv==8  or serv== 9:
+      int(5)
+      n=5*1
+  if serv ==10 or serv==11 or serv==12 or serv==13 or serv==14:
+      int(10)
+      n=5*2
+  if serv == 15 or serv==16 or serv==17 or serv==18 or serv== 19:
+      int(15)
+      n=5*3
+  if serv == 20 or serv==21 or serv==22 or serv==23 or serv==24:
+      int(20)
+      n=5*4
+  if serv == 25 or serv== 26 or serv== 27 or serv==28 or serv==29:
+     int(25)
+     n=5*5
+  if serv == 30 or serv== 31 or serv== 32 or serv== 33 or serv== 34:
+    int(30)
+    n=5*6
+  if serv== 35 or serv== 36  or serv==37  or serv==38 or serv==39:
+    int(35)
+    n=5*7
+  if serv== 40 or serv== 41  or serv== 42  or serv== 43 or serv== 44:
+    int(40)
+    n=5*8
+  if serv== 45 or serv== 46  or serv== 47  or serv== 48 or serv== 49:
+    int(45)
+    n=5*9
+  if serv== 50 or serv== 51  or serv== 52  or serv== 53 or serv== 54:
+    int(50)
+    n=5*10
+  if serv== 55 or serv== 56  or serv== 57  or serv== 58 or serv== 59:
+    int(55)
+    n=5*11
+  if serv== 60 or serv== 61  or serv== 62  or serv== 63 or serv== 64:
+    int(60)
+    n=5*12
+  if serv== 65 or serv== 66  or serv== 67  or serv== 68 or serv== 69:
+    int(65)
+    n=5*13
+      
+
+
+
+print(nome,end='                     ')
+print(cargo,end='=================')
+print('Vencimento',end='        ',)
+grat=(sbi*100)/100+sbi
+print('Gratificacão',grat)  
+
+    
+print('quin',n1)
