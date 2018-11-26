@@ -1,0 +1,39 @@
+# Atividade slide 03  PYTHON
+x=6.0
+y=2
+z=4.0
+a=8
+b=7.5
+c=12
+print('Dadas as incógnitas x=6.0,y=2,z=4.0,a=8,b=7.5,c=12. Indentifique as funções:')
+print('A)x - y * (a + 1) == z * -c')
+
+print("A)","Se x-y*(a+1)é",x-y*(a+1),(','),"e se z*-c é",z*-c,".","Então,x-y*(a+1)==z*-c, é",x-y*(a+1)==z*-c)
+
+print('B) x- y * a > c % y')
+
+print("B)","Se x-y*a é",x-y*a,"e se c%y é",c%y,".","Então,x-y*a>c%y é" ,x-y*a>c%y)
+
+print('C) c % y <= y % c')
+
+print("C)","Se c%y é",c%y,'e',"se y%c é",y%c,'.',"Então,c%y<=y%c é",c%y<=y%c) 
+
+print('D) (b * 4) >= (a + a * 2) and a >= c ** - 2')
+      
+("D)","(Se b*4)é",b*4,',','(e se a+a*2 é)',a+a*2,',','a=8',',','c**-2',c**-2,'.''Então,(b*4)>=(a+a*2) e a>=c**-2)','é',(b*4)>=(a+a*2)and a>=(c**-2))
+
+print('E) a + 3 > -b + -c')
+      
+print("E)",'Se a+3 é',a+3,'e se (-b+-c) é',-b+-c,'. Então,a+3>-b+-c, é ', a+3>-b+-c)
+
+print('F) b + a > c + c and a != c < b != a')
+
+print("F)",'Se b+a é',b+a,'e se c+c é',c+c,'. Então, b+a>c+c e a!=c<b!=a, são',b+a>c+c and a!=c<b!=a)
+
+print('G) a // c < (b % 2) or (c ** b * 3) < a * 3')
+
+print("G)",'Se a//c é',a//c,'e se (b%2) é',(b%2),'e (c**b*3) é',(c**b*3),'e a*3 é',a*3,'. Então,(b%2),a//c<(b%2) ou (c**b*3)<a*3 é',(b%2),a//c<(b%2) or (c**b*3)<a*3)
+
+print('H) c ** 3 <= 3 + c *')
+
+print("H)","c**3<=3+c*, Não corresponde a nenhuma operação, erro em 'c*'")
